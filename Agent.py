@@ -122,7 +122,7 @@ class Agent(object):
         if winner == self.player:
             return 1
         elif winner == EMPTY:
-            return 0.3
+            return 0.2
         elif winner == DRAW:
             return 0
         else:
