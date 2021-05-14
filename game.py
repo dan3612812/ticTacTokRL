@@ -4,8 +4,8 @@ from Agent import Agent
 from Human import Human
 from TicTakToe import TieTakToe
 
-attackModelFile = "self-A.pickle"  # change your first player model weight
-defendModelFile = "self-D.pickle"  # change your last player model weight
+attackModelFile = "model-A.pickle"  # change your first player model weight
+defendModelFile = "model-D.pickle"  # change your last player model weight
 
 
 def main():
